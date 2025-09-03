@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 2rem;
+}
+
+main {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+/* --- Pseudo-clases --- */
+
+/* Cuando el campo tiene foco */
+input:focus,
+textarea:focus {
+  border-color: #0066ff;
+  background: #f0f8ff;
+}
+
+/* Cuando el campo no es válido */
+input:invalid,
+textarea:invalid {
+  border-color: red;
+  background: #ffe5e5;
+}
+
+/* Cuando el campo es válido */
+input:valid,
+textarea:valid {
+  border-color: green;
+  background: #e5ffe5;
+}
+
+/* Botón */
+button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #0066ff;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0044cc;
+}
